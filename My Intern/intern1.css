@@ -1,0 +1,607 @@
+body {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    font-family: 'open sans', sans-serif;
+
+}
+
+/* Topbar CSS Starts */
+.topbar {
+    background-color: #072044;
+    color: #fff;
+    padding: 12px 0;
+
+}
+
+
+.topbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.topbar a:hover {
+    color: #2bace2;
+}
+
+.topbar-contact ul,
+.topbar-social ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.topbar-contact ul li {
+    font-size: 20px;
+}
+
+.topbar-contact ul li span {
+    padding-right: 6px;
+}
+
+.topbar-social {
+    display: flex;
+    align-items: center;
+}
+
+.topbar-social ul li {
+    padding-right: 8px;
+    font-size: 20px;
+}
+
+.topbar-social ul {
+    border-right: 2px solid #fff;
+}
+
+.topbar-social button {
+    background-color: #2bace2;
+    color: white;
+    margin-left: 10px;
+    border: none;
+    padding: 8px 19px;
+    border-radius: 6px;
+}
+
+/* Navbar Header */
+.custom-navbar{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+.custom-navbar .navbar {
+    padding: 10px 0;
+    
+    
+}
+
+.navbarSupportedContent a {
+    color: #2bace2;
+}
+
+.custom-navbar .navbar-light .navbar-nav .active>.nav-link,
+.custom-navbar .navbar-light .navbar-nav .nav-link.active,
+.custom-navbar .navbar-light .navbar-nav .nav-link.show,
+.custom-navbar .navbar-light .navbar-nav .show>.nav-link {
+    color: #2bace2;
+}
+
+.custom-navbar .navbar-light .navbar-nav .nav-link:focus,
+.custom-navbar .navbar-light .navbar-nav .nav-link:hover {
+    color: #2bace2;
+}
+
+.custom-navbar .navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0);
+    font-weight: 600;
+    font-size: 14px;
+}
+.dropdown-menu a{
+    color: #000;
+    text-decoration: none;
+    
+
+    
+}
+.dropdown-menu a:hover {
+    text-decoration: none !important;
+    color: #2cabe2 !important;
+    
+    
+}
+
+.dropdown-item:hover{
+    background-color: white;
+}
+
+/* Banner Section Starts*/
+.content-section {
+    background-image: url('images/Banner1.png');
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 540px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.content-section button {
+    background-color: #2cabe2;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 10px 33px 10px 33px;
+
+}
+.content-section button :hover{
+    color: white;
+}
+
+.content-section hr {
+    border-color: #2bace2;
+    border-width: 3px;
+    width: 100%;
+    max-width: 35px;
+    margin: 0;
+    position: relative;
+    top: -5px;
+}
+
+.content-section hr:before {
+    content: "";
+    background-color: #2bace2;
+    width: 3px;
+    height: 3px;
+    position: absolute;
+    left: 38px;
+    top: -3px;
+}
+
+.content-section hr:after {
+    content: "";
+    background-color: #2bace2;
+    width: 3px;
+    height: 3px;
+    position: absolute;
+    left: 44px;
+    top: -3px;
+}
+
+/* Banner Section Ends */
+
+/* container 1 start */
+.service {
+    padding: 40px 0;
+}
+
+.service hr {
+    margin: 0 auto;
+    border-color: #2bace2;
+    border-width: 3px;
+    width: 100%;
+    max-width: 35px;
+    position: relative;
+
+}
+
+.inspire {
+    padding-top: 18px;
+    text-align: center;
+}
+
+.service h3,
+.service p {
+    text-align: center;
+}
+
+.service hr:before {
+    content: "";
+    background-color: #2bace2;
+    width: 3px;
+    height: 3px;
+    position: absolute;
+    left: 38px;
+    top: -3px;
+}
+
+.service hr:after {
+    content: "";
+    background-color: #2bace2;
+    width: 3px;
+    height: 3px;
+    position: absolute;
+    left: 44px;
+    top: -3px;
+}
+
+.service h1{
+    font-weight: bold;
+}
+
+/* container 1 ends */
+
+/* Card section 1 starts */
+.cards {
+    background-color: #2cabe2;
+    border-radius: 6px;
+    padding: 40px 0px;
+}
+
+.cards h2 {
+    color: white;
+}
+
+.custom-card-body-text {
+    color: #2bace2;
+}
+
+.custom-card {
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.25);
+    border-radius: 8px;
+    position: relative;
+}
+
+.custom-card-texts {
+    color: #2bace2;
+}
+
+.cards p {
+    text-align: center;
+    font-size: 20;
+    font-weight: bold;
+}
+
+/* Card section 1 Ends */
+
+/* Card section 2 Starts */
+.cards2 hr {
+    margin: 0 auto;
+    border-color: #2bace2;
+    border-width: 3px;
+    width: 100%;
+    max-width: 35px;
+    position: relative;
+
+}
+
+.cards2 hr:after {
+    content: "";
+    background-color: #2bace2;
+    width: 3px;
+    height: 3px;
+    position: absolute;
+    left: 44px;
+    top: -3px;
+}
+
+.cards2 hr:before {
+    content: "";
+    background-color: #2bace2;
+    width: 3px;
+    height: 3px;
+    position: absolute;
+    left: 38px;
+    top: -3px;
+}
+
+.custom-card1 {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 20px 0px;
+    margin: 20px;
+}
+
+.cards2 h1 {
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+.cards2 .custom-card {
+    margin-bottom: 35px;
+}
+
+
+
+.icon-box {
+    position: absolute;
+    top: -32px;
+    left: 18px;
+    max-width: 50px;
+    height: 48px;
+    padding: 12px;
+    background-color: #2bace2;
+    display: flex;
+    border-radius:0px;
+    
+}
+
+/* Card section 2 Ends */
+
+/* joining section starts */
+.joining {
+    background-color: rgba(237, 236, 236, 0.934);
+    padding: 35px 0px 35px 0px;
+}
+
+.joining h1 {
+    color: #2bace2;
+    font-weight: bold;
+}
+
+.joining button {
+    background-color: #2bace2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 2px 40px 2px 40px;
+}
+
+/* joining section Ends */
+
+/* Footer Css Starts */
+.footerend {
+    background-color: #07294D;
+    padding: 40px 0px;
+    font-size: 16px;
+}
+
+.footerend h1 {
+    color: #17a2be;
+    font-size: 22px;
+    margin: 12px 0px 0px 35px;
+}
+
+.digitlogo {
+    text-decoration: none;
+}
+
+.cards3 img {
+    size: 10;
+}
+
+.useful-links {
+    line-height: normal;
+}
+
+.footerend ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer ul li a:hover {
+    color: #17a2b8;
+}
+
+footer ul li a span {
+    padding-right: 8px;
+}
+
+footer h4,
+footer p {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-address img {
+    width: 100%;
+    max-width: 190px;
+}
+
+.mapicon {
+    margin-top: 43px;
+}
+
+.footer-address ul li {
+    padding-top: 10px;
+}
+
+.footer-address ul li a {
+    display: flex;
+}
+
+.footer-address h4 {
+    margin-top: 20px;
+}
+
+.footer-address :hover {
+    text-decoration: none;
+}
+
+.useful-links h4 {
+    margin-bottom: 3px;
+}
+
+.useful-links ul li {
+    padding-bottom: 10px;
+}
+
+.useful-links ul li a:hover {
+    padding-left: 5px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+.post_footer {
+    display: flex;
+    width: 100%;
+    margin-bottom: 6px;
+
+}
+
+.post_content {
+    padding-left: 20px;
+}
+
+.post_content {
+    color: #fff;
+}
+
+.post_img {
+    height: 10px;
+    line-height: 100px;
+}
+
+.post_img a {
+    max-width: 100px
+}
+
+.post_img a img {
+    max-width: 50px
+}
+
+.subscribe-form h4 {
+    margin-bottom: 20px;
+}
+
+.subscribe-form p {
+    margin-bottom: 10px;
+}
+
+.subscribe-form form button {
+    background-color: #2cabe1;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+.subscribe-form form {
+    background-color: #fff;
+    padding: 6px 10px;
+}
+
+.subscribe-form form input {
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+
+}
+
+.subscribe-form form input:focus-visible {
+    background-color: transparent;
+    border: none;
+    outline: none !important
+}
+
+.follow-title {
+    margin-top: 40px;
+}
+
+.subscribe-form ul {
+    display: flex;
+}
+
+.subscribe-form ul li {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.digitlogo h4 {
+    color: #2bace2;
+}
+
+/* Footer Css Ends */
+
+/* COpyright Section CSS STarts */
+.copyright {
+    background-color: #072044;
+
+}
+
+.copyright p {
+    color: #fff;
+    margin: 0;
+    padding: 20px 0;
+}
+
+/* Copyright Section CSS Ends */
+
+/* Popup Starts */
+.modal hr {
+    margin: 0;
+    border-color: #2bace2;
+    border-width: 3px;
+    width: 100%;
+    max-width: 35px;
+    position: relative;
+}
+
+.modal hr:after {
+    content: "";
+    background-color: #2bace2;
+    width: 3px;
+    height: 3px;
+    position: absolute;
+    left: 44px;
+    top: -3px;
+}
+
+.modal hr:before {
+    content: "";
+    background-color: #2bace2;
+    width: 3px;
+    height: 3px;
+    position: absolute;
+    left: 38px;
+    top: -3px;
+}
+
+.modal button {
+    background-color: #2cabe2;
+}
+
+label {
+    margin: 10px 0px 0px 0px;
+}
+
+input.form-check-input {
+    margin-top: 15.3px;
+}
+
+label.name {
+    padding-left: 8px;
+}
+/* Popup Ends */
+
+/* Floating Starts */
+.floating {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+.fa-whatsapp:before {
+    content: "\f232";
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1;
+}
+.help{
+    margin-top: 15px;
+}
+/* Floating Ends */

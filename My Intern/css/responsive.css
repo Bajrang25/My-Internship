@@ -1,0 +1,131 @@
+@media only screen and (max-width:576px) {
+    .topbar-content {
+        flex-direction: column;
+    }
+
+    .topbar-content {
+        font-size: 10px;
+    }
+
+    .img-fluid {
+        width: 30%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .service h3 {
+        font-size: 22px;
+    }
+
+    .service h1 {
+        font-size: 25px;
+    }
+
+    .recent-posts {
+        padding-left: 15px;
+    }
+
+    p.card-text.custom-card-texts {
+        font-size: 17;
+    }
+
+    .cards h2 {
+        font-size: 20px;
+    }
+
+    .cards2 h1 {
+        font-size: 20px;
+    }
+
+    p.card-text.custom-card-text {
+        font-size: 15;
+    }
+    .mapicon{
+        margin-top: 35px;
+    }
+    .content-section h3{
+        font-size: 17px;
+    }
+    .content-section h1 h5{
+        font-size: 16px;
+    }
+    .floating{
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+    }
+    .help{
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width:578px) and (max-width:767.99px) {
+    .topbar-content {
+        flex-direction: column;
+    }
+
+    .topbar-content {
+        font-size: x-small;
+    }
+
+    .main-content {
+        font-size: x-small;
+    }
+
+    .service {
+        font-size: small;
+    }
+
+    .service h1 {
+        font-size: 28px;
+    }
+
+    .service h3 {
+        font-size: x-large;
+    }
+
+    .service {
+        flex-direction: column;
+    }
+
+    .img-fluid {
+        width: 85%;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .recent-posts {
+        padding-left: 15px;
+    }
+}
+
+/* rough */
+
+@media (min-width: 767px) {
+    .navbar .dropdown-toggle:not(.nav-link)::after {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        margin-left: .5em;
+        vertical-align: 0;
+        border-bottom: .3em solid transparent;
+        border-top: .3em solid transparent;
+        border-left: .3em solid;
+    }
+}
